@@ -1,0 +1,33 @@
+# Ignore the 'photos' directory (DVC will handle it)
+photos/
+!/photos.dvc
+
+# Byte-compiled Python files
+*.py[cod]
+__pycache__/
+*.so
+
+# Jupyter Notebooks checkpoints
+.ipynb_checkpoints/
+
+# Virtual environment folders
+venv/
+env/
+
+# macOS files
+.DS_Store
+
+# Logs and temporary files
+*.log
+*.tmp
+
+# DVC cache files
+/.dvc/cache/
+/.dvc/tmp/
+
+# Ignore data files tracked by DVC
+
+
+# Ignore environment configuration files
+.env
+/photos
